@@ -6,6 +6,12 @@ body {
     margin: 0%;
 }
 
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+
+}
+
 #maindivheader {
     background-color: #1f2937;
     margin-top: -20px;
@@ -13,8 +19,54 @@ body {
     
 }
 
-.headerwrap   {
-    display:inline-block;
+/* header */
+
+header {
+    background-color: #1f2937;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    font-size: 40px;
+    color: #e5e7eb;
+    padding: 0px 0;
+
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 45px;
+    
+}
+
+li a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 /* section 1 */
@@ -88,3 +140,40 @@ body {
 
 
 /* section 2 */
+
+#maindivsec2 {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 25%;
+    padding-right: 25%;
+    
+}
+
+.divsec2h2 {
+    text-align: center;
+    padding-top: 50px;
+    margin: 0%;
+    
+}
+
+#card-wrapper {
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.group1 {
+    border: #3882f6;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    margin: 0%;
+    padding:0%;
+    height: 150px;
+    width: 150px;
+}
